@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../Html-CSS/6.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+
+ul li.active a{
+  background-color: rgb(236, 169, 45);
+  color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height:auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: rgb(241, 107, 107);
+    font-size: 60px;
+}
+
+.title h1:hover{
+    color: rgb(241, 107, 107);
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    
+}
+
+.but{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: red;
+  color: #000;
+
+}
+
+.but:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.sub-title{
+    background-color: rgb(84, 138, 201);
+}
+
+
+
+
+
+
+
